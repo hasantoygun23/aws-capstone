@@ -159,7 +159,7 @@ MYSQL/Aurora(3306)  ----> aws-capstone-ec2-sg
 
 - Create a parameter for `database master password`  :
 
- `Name`         : /<yourname>/capstone/password               
+ `Name`         : /hsn/capstone/password               
  `Description`  : ---
  `Tier`         : Standard
  `Type`         : SecureString   (So AWS encrypts sensitive data using KMS)
@@ -168,7 +168,7 @@ MYSQL/Aurora(3306)  ----> aws-capstone-ec2-sg
 
 - Create parameter for `database username`  :
 
- `Name`         : /<yourname>/capstone/username             
+ `Name`         : /hsn/capstone/username             
  `Description`  : ---
  `Tier`         : Standard
  `Type`         : SecureString   (So AWS encrypts sensitive data using KMS)
@@ -177,7 +177,7 @@ MYSQL/Aurora(3306)  ----> aws-capstone-ec2-sg
 
 - Create parameter for `Github TOKEN`  :
 
- `Name`         : /<yourname>/capstone/token             
+ `Name`         : /hsn/capstone/token             
  `Description`  : ---
  `Tier`         : Standard
  `Type`         : SecureString   (So AWS encrypts sensitive data using KMS)
